@@ -69,7 +69,7 @@ def no_sticks_left(total_sticks_left):
 # This is the main function where Game starts
 def main():
     print("Welcome to the Game of Sticks!")
-    
+
     while True:
         num_sticks = amount_of_sticks_input()
         two_players_game(num_sticks)
